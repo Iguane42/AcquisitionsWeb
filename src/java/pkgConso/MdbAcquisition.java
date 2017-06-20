@@ -24,7 +24,7 @@ import javax.jms.MessageListener;
 @MessageDriven(activationConfig = {
     @ActivationConfigProperty(propertyName = "clientId", propertyValue = "MdbAcquisition")
     ,
-        @ActivationConfigProperty(propertyName = "destinationLookup", propertyValue = "Depeches")
+        @ActivationConfigProperty(propertyName = "destinationLookup", propertyValue = "jms/Articles")
     ,
         @ActivationConfigProperty(propertyName = "subscriptionDurability", propertyValue = "Durable")
     ,
